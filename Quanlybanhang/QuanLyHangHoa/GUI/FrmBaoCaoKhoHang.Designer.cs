@@ -48,12 +48,12 @@
             // 
             // 
             // 
-            this.dgvKhoMain.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dgvKhoMain.Location = new System.Drawing.Point(16, 31);
+            this.dgvKhoMain.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvKhoMain.Location = new System.Drawing.Point(14, 31);
             this.dgvKhoMain.MainView = this.dgvKho;
-            this.dgvKhoMain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvKhoMain.Margin = new System.Windows.Forms.Padding(4);
             this.dgvKhoMain.Name = "dgvKhoMain";
-            this.dgvKhoMain.Size = new System.Drawing.Size(1343, 578);
+            this.dgvKhoMain.Size = new System.Drawing.Size(1175, 578);
             this.dgvKhoMain.TabIndex = 18;
             this.dgvKhoMain.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.dgvKho});
@@ -110,10 +110,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 11);
+            this.label1.Location = new System.Drawing.Point(24, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(278, 17);
+            this.label1.Size = new System.Drawing.Size(277, 16);
             this.label1.TabIndex = 17;
             this.label1.Text = "Danh sách các mặt hàng trong kho : Ngày ";
             // 
@@ -121,10 +121,10 @@
             // 
             this.btnDong.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnDong.Image = ((System.Drawing.Image)(resources.GetObject("btnDong.Image")));
-            this.btnDong.Location = new System.Drawing.Point(1028, 617);
-            this.btnDong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDong.Location = new System.Drawing.Point(900, 617);
+            this.btnDong.Margin = new System.Windows.Forms.Padding(4);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(331, 55);
+            this.btnDong.Size = new System.Drawing.Size(290, 55);
             this.btnDong.TabIndex = 19;
             this.btnDong.Text = "Đóng chức năng";
             this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
@@ -133,10 +133,10 @@
             // 
             this.btnXuatExcel.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
             this.btnXuatExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnXuatExcel.Image")));
-            this.btnXuatExcel.Location = new System.Drawing.Point(689, 617);
-            this.btnXuatExcel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXuatExcel.Location = new System.Drawing.Point(603, 617);
+            this.btnXuatExcel.Margin = new System.Windows.Forms.Padding(4);
             this.btnXuatExcel.Name = "btnXuatExcel";
-            this.btnXuatExcel.Size = new System.Drawing.Size(331, 55);
+            this.btnXuatExcel.Size = new System.Drawing.Size(290, 55);
             this.btnXuatExcel.TabIndex = 20;
             this.btnXuatExcel.Text = "Xuất Excel";
             this.btnXuatExcel.Click += new System.EventHandler(this.btnXuatExcel_Click);
@@ -144,26 +144,26 @@
             // txtDate
             // 
             this.txtDate.AutoSize = true;
-            this.txtDate.Location = new System.Drawing.Point(304, 11);
+            this.txtDate.Location = new System.Drawing.Point(266, 11);
             this.txtDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtDate.Name = "txtDate";
-            this.txtDate.Size = new System.Drawing.Size(120, 17);
+            this.txtDate.Size = new System.Drawing.Size(120, 16);
             this.txtDate.TabIndex = 22;
             this.txtDate.Text = "20/07/2017 08:15";
             // 
             // FrmBaoCaoKhoHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(1375, 687);
+            this.ClientSize = new System.Drawing.Size(1203, 687);
             this.Controls.Add(this.txtDate);
             this.Controls.Add(this.btnXuatExcel);
             this.Controls.Add(this.btnDong);
             this.Controls.Add(this.dgvKhoMain);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmBaoCaoKhoHang";
             this.Text = "FrmBaoCaoKhoHang";
             this.Load += new System.EventHandler(this.FrmBaoCaoKhoHang_Load);
